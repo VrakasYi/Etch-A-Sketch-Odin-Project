@@ -6,14 +6,19 @@
 
 
 #container {
-    display: flex;
     width: 600px;
     height: 600px;
     border: 4px solid black;
     gap: 2px;
+    padding: 1px;
 }
 
 .row {
+    display: flex;
+    gap: 1px;
+}
+
+.column {
     flex: 1;
     padding: 2px;
     background-color: brown;
