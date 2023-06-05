@@ -11,13 +11,14 @@ for (let i = 0; i <= gridDivsNo; i++) {
     for (let j = 0; j <= gridDivsNo; j++) {
         let colDiv = document.createElement('div');
         colDiv.classList.add('column');
-        colDiv.setAttribute('id', 'pixel')
         //colDiv.textContent = i;
         rowDiv.appendChild(colDiv);
     };
 }
 
-pixel = document.getElementById('pixel')
-pixel.addEventListener('mouseover', (event) => {
-    event.target.style.backgroundColor = "gray";
-});
+pixel = document.getElementsByClassName('column');
+for (let i = 0; i < pixel.length; i++) {
+    pixel[i].addEventListener('mouseover', (event) => {
+        event.target.classList.add('gray-pixel');
+    });
+}
