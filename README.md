@@ -1,8 +1,5 @@
 # Etch-A-Sketch-Odin-Project
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 3a8d02494760edf33011a1eb7ffa918c82ed1a42
+
 Key takeaways and learnings:
 
 DOM Manipulation: How to dynamically create, modify, and remove DOM elements using JavaScript. How to create rows and columns of div elements, add classes to them, and append them to the container element.
@@ -15,8 +12,3 @@ CSS Class Manipulation: The script adds and removes CSS classes to control the s
 
 Overall, the script demonstrates the basic concepts of manipulating the DOM, handling events, validating user input, and creating dynamic grids. 
 It showcases the use of JavaScript to create an interactive grid that changes appearance when interacting with the pixels.
-<<<<<<< HEAD
-=======
->>>>>>> a31aca9a27afa47d8e9f01c98bc644e011a19098
-=======
->>>>>>> 3a8d02494760edf33011a1eb7ffa918c82ed1a42
